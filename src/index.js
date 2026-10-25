@@ -183,9 +183,10 @@ try {
       "Access-Control-Allow-Headers": "Content-Type"
     }
   });
-} catch {
+} catch (error) {
   return json({
-    error: "Generation failed. The public AI demo may be temporarily unavailable."
+    error: "Generation failed.",
+    details: String(error)
   }, 502);
 }
 
