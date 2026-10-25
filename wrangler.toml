@@ -1,0 +1,7 @@
+name = "vibemotion-ai-worker"
+main = "src/index.js"
+compatibility_date = "2026-10-25"
+
+[vars]
+HF_SPACE_BASE = "https://cbensimon-wan2-2-fp8da-aoti-preview2.hf.space"
+HF_FN_NAME = "generate_video"
